@@ -1,0 +1,254 @@
+@font-face {
+ font-family: 'Kelly Slab';
+  src: url('Fontes/KellySlab_Regular.ttf');
+}
+
+
+@font-face {
+ font-family: 'Sketter';
+ src: url('Fontes/Sketter_DEMO.ttf');
+}
+
+
+@font-face {
+ font-family: 'Hemico Greek';
+ src: url('Fontes/Hemico_Greek.ttf');
+}
+
+
+/* --- Reset --- */
+
+h1{
+  font-family: 'Sketter', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 20px; 
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  font-family: sans-serif; 
+  background-color: #f4f4f4; 
+}
+
+
+/* --- PAGE D'ACCUEIL --- */
+
+
+#randomButton {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-family: 'Kelly Slab', sans-serif;
+  cursor: pointer;
+  background-color: #eb0bef;
+  color: white;
+  box-shadow: 0 4px 6px rgba(29, 137, 139, 0.8);
+  justify-content: center;
+  border: none;
+  border-radius: 7px;
+  transition: transform 0.2s;
+}
+
+
+
+
+#randomButton:hover {
+  transform: scale(1.05)  rotate(3deg);
+}
+
+
+
+/* --- CARRE --- */
+canvas {
+  display: block; 
+  margin: 0 auto 20px auto; 
+  border: 4px solid #fff;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  border-radius: 8px;
+  max-width: 100%; 
+  height: auto;
+}
+
+
+
+/* ----- QCM ------*/
+#question {
+ font-size: 34px;
+ font-family: 'Hemico Greek', sans-serif;
+ color: #333;
+ text-align: center;
+ margin: 20px auto;
+ width: 90%;
+ max-width: 700px;
+ background-color: white;
+ padding: 15px;
+ border-radius: 10px;
+}
+
+#reponses {
+  display: flex;
+  gap: 15px;
+}
+
+#reponses button{
+ padding: 15px ;
+ gap: 60px;
+ font-size: 18px;
+ background-color: #3fe7ed;
+ color: white;
+ border: none;
+ border-radius: 10px;
+ cursor: pointer;
+ transition: all 0.3s ease;
+ box-shadow: 0 4px 6px rgba(29, 137, 139, 0.8);
+ font-family: 'Kelly Slab', sans-serif;
+}
+
+
+#reponses button:hover {
+ background-color: #c8f4ed;
+ color: #333;
+ transform: translateY(-2px) rotate(3deg);
+ box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+}
+
+
+#reponses button:active {
+ transform: translateY(0);
+ box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+
+/*mots*/
+
+
+#quiz-container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;   
+  gap: 20px;             
+  width: 90%;
+  max-width: 800px;      
+  text-align: center;
+}
+
+
+#question-text {
+  font-size: 34px;
+  font-family: 'Hemico Greek', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); 
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  width: 100%;
+  line-height: 1.4;
+}
+
+
+#reponse-input {
+  padding: 15px 20px;
+  font-size: 20px;
+  font-family: 'Kelly Slab', sans-serif;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  width: 80%;           /* Largeur relative */
+  max-width: 400px;     /* Largeur max */
+  text-align: center;
+  outline: none;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+#reponse-input:focus {
+  border-color: #f7aad4;
+  box-shadow: 0 0 15px rgba(247, 170, 212, 0.6);
+  transform: scale(1.02);
+}
+
+
+#check-button {
+  padding: 12px 40px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: white;
+  background-color: #f7aad4;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(29, 137, 139, 0.8);
+  transition: all 0.3s ease;
+  font-family: 'Kelly Slab', sans-serif;
+}
+
+#check-button:hover {
+  background-color: #c8f4ed;
+  color: #333;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+#check-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+
+
+/* GALLERY */
+
+
+#Felicitation {
+  text-align: center;
+  margin-bottom: 40px; /* Espace entre le texte et la galerie */
+  }        
+        
+#Felicitation p {
+  font-family: 'Hemico Greek', sans-serif; 
+  font-size: 2rem;
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.8); /* Fond blanc semi-transparent */
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+
+/* --- GALERIE --- */
+#gallery{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  }
+
+.gallery-item{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10%;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item img{
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+   
+.gallery-item:hover {
+transform: scale(1.05) rotate(3deg);
+}
+
+
+/* Responsive pour mobile : 1 colonne si écran trop petit */
+@media (max-width: 768px) {
+  #gallery {
+  grid-template-columns: 1fr;
+  }
+}

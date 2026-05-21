@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="JS/p5.min.js"></script>
+    
+    <style>
+        body {
+             /* --- CONFIGURATION DU FOND --- */
+            background-image: url('Images/background/background end.png');
+            background-size: cover; 
+            background-repeat: no-repeat; 
+            background-position: center; 
+            background-attachment: fixed; 
+            min-height: 100vh;  
+            padding-bottom: 50px; 
+        }
+
+        
+    </style>
+ </head>
+
+ <body>
+    
+    <section id="Felicitation">
+        <p>Félicitation ! Tu es un.e vrai.e fan !</p>
+    </section>
+    
+    <section id="gallery">
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_1.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_2.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_3.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_4.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_5.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_6.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_7.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_8.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_9.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_10.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_11.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_12.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_13.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_14.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_15.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_16.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_17.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_18.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_19.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_20.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_21.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_22.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_23.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_24.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_25.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_26.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_27.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_28.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_29.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_30.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_31.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_32.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_33.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_34.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_35.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_36.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_37.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_38.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_39.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_40.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_41.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_42.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_43.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_44.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_45.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_46.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_47.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_48.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_49.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_50.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_51.jpg" alt="Twilight image d'archive">    
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_52.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_53.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_54.jpg" alt="Twilight image d'archive">   
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_55.jpg" alt="Twilight image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/TWILIGHT/TW_56.jpg" alt="Twilight image d'archive">
+        </article>
+ 
+    </section>
+ </body>
+</html>

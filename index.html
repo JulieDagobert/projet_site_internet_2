@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+   <script src="JS/p5.min.js"></script>
+   <link rel="stylesheet" href="style.css">
+   <meta charset="utf-8" />
+   <title>COOL QUIZZ</title>
+</head>
+
+ <body>
+
+<style>
+    body {
+    background-image: url('Images/background/background home.png');
+            background-size: cover; 
+            background-repeat: no-repeat; 
+            background-position: center; 
+            height: 100vh; 
+    }
+</style>
+
+  <main>
+       <h1>COOL QUIZZ</h1>
+ 
+       <button id="randomButton">Click Click</button>
+   </main>
+
+   <script>
+     const btn = document.getElementById('randomButton');
+     const pages = [
+        "qcm.html", 
+        "carre.html", 
+        "mot.html"];
+     btn.addEventListener('click', () => {
+       const randomIndex = Math.floor(Math.random() * pages.length);  
+       window.location.href = pages[randomIndex];
+     });
+   </script>
+
+   <script src="JS/sketch.js"></script>
+ </body>
+</html>

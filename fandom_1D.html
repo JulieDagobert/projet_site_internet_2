@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="JS/p5.min.js"></script>
+    
+    <style>
+        body {
+             /* --- CONFIGURATION DU FOND --- */
+            background-image: url('Images/background/background end.png');
+            background-size: cover; 
+            background-repeat: no-repeat; 
+            background-position: center; 
+            background-attachment: fixed; 
+            min-height: 100vh;  
+            padding-bottom: 50px; 
+        }
+
+        
+    </style>
+ </head>
+
+ <body>
+    
+    <section id="Felicitation">
+        <p>Félicitation ! Tu es un.e vrai.e fan !</p>
+    </section>
+    
+    <section id="gallery">
+        <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_1.jpg" alt="One Direction image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_2.png" alt="One Direction image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_3.png" alt="One Direction image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_4.png" alt="One Direction image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_5.png" alt="One Direction image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_6.png" alt="One Direction image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_7.png" alt="One Direction image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_8.png" alt="One Direction image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_9.png" alt="One Direction image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_10.png" alt="One Direction image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_11.png" alt="One Direction image d'archive 11">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_12.png" alt="One Direction image d'archive 12">
+        </article>
+         <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_13.png" alt="One Direction image d'archive 13">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_14.png" alt="One Direction image d'archive 14">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_15.png" alt="One Direction image d'archive 15">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_16.png" alt="One Direction image d'archive 16">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_17.png" alt="One Direction image d'archive 17">
+        </article>              
+         <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_18.png" alt="One Direction image d'archive 18">
+        </article>
+         <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_19.png" alt="One Direction image d'archive 19">
+        </article>
+         <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_20.png" alt="One Direction image d'archive 20">
+        </article>
+         <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_21.png" alt="One Direction image d'archive 21">
+        </article>
+         <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_22.png" alt="One Direction image d'archive 22">
+        </article>
+         <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_23.png" alt="One Direction image d'archive 23">
+        </article>          
+         <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_24.png" alt="One Direction image d'archive 24">
+        </article>
+         <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_25.png" alt="One Direction image d'archive 25">
+        </article>
+         <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_26.png" alt="One Direction image d'archive 26">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_27.png" alt="One Direction image d'archive 27">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_28.png" alt="One Direction image d'archive 28">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_29.png" alt="One Direction image d'archive 29">
+        </article>
+        <article class="gallery-item">       
+            <img src="Images/ONE_DIRECTION/1D_30.png" alt="One Direction image d'archive 30">    
+        </article>  
+        <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_31.png" alt="One Direction image d'archive 31">   
+        </article>
+        <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_32.png" alt="One Direction image d'archive 32">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_33.png" alt="One Direction image d'archive 33">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_34.png" alt="One Direction image d'archive 34">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_35.png" alt="One Direction image d'archive 35">
+        </article>  
+        <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_36.png" alt="One Direction image d'archive 36">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_37.png" alt="One Direction image d'archive 37">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_38.jpg" alt="One Direction image d'archive 38">
+        </article>  
+        <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_39.jpg" alt="One Direction image d'archive 39">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_40.jpg" alt="One Direction image d'archive 40">
+        </article> 
+        <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_41.jpg" alt="One Direction image d'archive 41">   
+        </article>
+        <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_42.jpg" alt="One Direction image d'archive 42">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_43.jpg" alt="One Direction image d'archive 43">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_44.jpg" alt="One Direction image d'archive 44">  
+        </article>  
+        <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_45.png" alt="One Direction image d'archive 45">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_46.png" alt="One Direction image d'archive 46">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/ONE_DIRECTION/1D_47.jpg" alt="One Direction image d'archive 47">
+        </article>
+    </section>
+ </body>
+</html>

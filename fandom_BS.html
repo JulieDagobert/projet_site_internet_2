@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="JS/p5.min.js"></script>
+    
+    <style>
+        body {
+             /* --- CONFIGURATION DU FOND --- */
+            background-image: url('Images/background/background end.png');
+            background-size: cover; 
+            background-repeat: no-repeat; 
+            background-position: center; 
+            background-attachment: fixed; 
+            min-height: 100vh; 
+            padding-bottom: 50px; 
+        }
+
+        
+    </style>
+ </head>
+
+ <body>
+    
+    <section id="Felicitation">
+        <p>Félicitation ! Tu es un.e vrai.e fan !</p>
+    </section>
+    
+    <section id="gallery">
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_1.jpg" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_2.jpg" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_3.jpg" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_4.jpg" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_5.jpg" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_6.jpg" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_7.jpg" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_8.jpg" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_9.jpg" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_10.jpg" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_11.jpg" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_12.jpg" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_13.jpg" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_14.jpg" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_15.jpg" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_16.jpg" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_17.jpg" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_18.jpg" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_19.jpg" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_20.jpg" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_21.jpg" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_22.jpg" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_23.jpg" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_24.jpg" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_25.jpg" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_26.jpg" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_27.jpg" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_28.png" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_29.png" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_30.png" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_31.png" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_32.jpg" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_33.jpg" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_34.jpg" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_35.jpg" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_36.jpg" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_37.jpg" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_38.jpg" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_39.jpg" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_40.jpg" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_41.jpg" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_42.jpg" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_43.jpg" alt="Britney Spears image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/BRITNEY_SPEARS/BS_44.jpg" alt="Britney Spears image d'archive">
+        </article>
+       
+    </section>
+ </body>
+</html>

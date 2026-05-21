@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="JS/p5.min.js"></script>
+    
+    <style>
+        body {
+        /* --- CONFIGURATION DU FOND --- */
+            background-image: url('Images/background/background end.png');
+            background-size: cover; 
+            background-repeat: no-repeat; 
+            background-position: center; 
+            background-attachment: fixed; 
+            min-height: 100vh; 
+            padding-bottom: 50px; 
+        }
+
+        
+    </style>
+ </head>
+
+ <body>
+    
+    <section id="Felicitation">
+        <p>Félicitation ! Tu es un.e vrai.e fan !</p>
+    </section>
+    
+    <section id="gallery">
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_1.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_2.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_3.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_4.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_5.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_6.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_7.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_8.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_9.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_10.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_11.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_12.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_13.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_14.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_15.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_16.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_17.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_18.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_19.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_20.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_21.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_22.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_23.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_24.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_25.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_26.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_27.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_28.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_29.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_30.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_31.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_32.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_33.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_34.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_35.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_36.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_37.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_38.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_39.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_40.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_41.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_42.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_43.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_44.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_45.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_46.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_47.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_48.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_49.jpg" alt="Hannah Montana image d'archive">
+        </article>
+        <article class="gallery-item">
+            <img src="Images/HANNAH_MONTANA/HM_50.png" alt="Hannah Montana image d'archive">
+        </article>
+       
+    </section>
+ </body>
+</html>
